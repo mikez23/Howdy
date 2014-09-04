@@ -14,8 +14,7 @@
 @end
 
 @implementation ViewController
-- (IBAction)buttonPressed:(id)sender {
-}
+
 
 - (void)viewDidLoad
 {
@@ -30,14 +29,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-//- (IBAction) buttonPressed: (id) sender
-//{
-//    UIAlertView* av= [[UIAlertView alloc] initWithTitle:@"Howdy!"
-//        message:@"You tapped me"
-//        delegate:nil
-//        cancelButtonTitle:@"Cool!"
-//        otherButtonTitles:nil ];
-//    [av show];
-//}
+- (IBAction) buttonPressed: (id) sender
+{
+    UIAlertView* av= [[UIAlertView alloc] initWithTitle:@"Howdy!"
+        message:@"You tapped me"
+        delegate:nil
+        cancelButtonTitle:@"Cool!"
+        otherButtonTitles:nil ];
+    [av show];
+}
 
 @end
