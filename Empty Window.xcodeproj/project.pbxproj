@@ -21,6 +21,7 @@
 		1244D15B19B3B30200CA1B39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1244D13D19B3B30200CA1B39 /* UIKit.framework */; };
 		1244D16319B3B30200CA1B39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1244D16119B3B30200CA1B39 /* InfoPlist.strings */; };
 		1244D16519B3B30200CA1B39 /* Empty_WindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1244D16419B3B30200CA1B39 /* Empty_WindowTests.m */; };
+		12A1468C19BA02C10052A579 /* MyRedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A1468B19BA02C10052A579 /* MyRedButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1244D16019B3B30200CA1B39 /* Empty WindowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Empty WindowTests-Info.plist"; sourceTree = "<group>"; };
 		1244D16219B3B30200CA1B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1244D16419B3B30200CA1B39 /* Empty_WindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Empty_WindowTests.m; sourceTree = "<group>"; };
+		12A1468A19BA02C10052A579 /* MyRedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRedButton.h; sourceTree = "<group>"; };
+		12A1468B19BA02C10052A579 /* MyRedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRedButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		1244D13F19B3B30200CA1B39 /* Empty Window */ = {
 			isa = PBXGroup;
 			children = (
+				12A1468A19BA02C10052A579 /* MyRedButton.h */,
+				12A1468B19BA02C10052A579 /* MyRedButton.m */,
 				1244D14819B3B30200CA1B39 /* AppDelegate.h */,
 				1244D14919B3B30200CA1B39 /* AppDelegate.m */,
 				1244D14B19B3B30200CA1B39 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1244D15019B3B30200CA1B39 /* ViewController.m in Sources */,
+				12A1468C19BA02C10052A579 /* MyRedButton.m in Sources */,
 				1244D14A19B3B30200CA1B39 /* AppDelegate.m in Sources */,
 				1244D14619B3B30200CA1B39 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				1244D16A19B3B30200CA1B39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1244D16B19B3B30200CA1B39 /* Build configuration list for PBXNativeTarget "Empty WindowTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				1244D16D19B3B30200CA1B39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
